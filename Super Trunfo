@@ -31,6 +31,17 @@ scanf("%lf", &pib);
 printf("\nDigite o numero de pontos turisticos:\n");
 scanf("%d", &pontoturistico);
 
+//resultado para exibir informacoes carta 1
+
+printf("\n\nCARTA 1: \n");
+printf("Estado: %c\n", estado);
+printf("Codigo da Carta: %s\n", codigocarta);
+printf("Nome da Cidade: %s\n", cidade);
+printf("Número da População do Estado: %.3lf\n", populacao);
+printf("Àrea do estado por KM2: %.3lf\n", km);
+printf("PIB do Estado: %.3lf bilhões de reais\n", pib);
+printf("Numero de Pontos Turisticos: %d\n\n", pontoturistico);
+
 //carta 2
 
 int pontoturistico2;
@@ -59,18 +70,9 @@ scanf("%lf", &pib2);
 printf("\nDigite o numero de pontos turisticos: \n");
 scanf("%d", &pontoturistico2);
 
-// resultado para exibir
+// resultado para exibir informacoes carta 2
 
-printf("\n\nCARTA 1: \n");
-printf("Estado: %c\n", estado);
-printf("Codigo da Carta: %s\n", codigocarta);
-printf("Nome da Cidade: %s\n", cidade);
-printf("Número da População do Estado: %.3lf\n", populacao);
-printf("Àrea do estado por KM2: %.3lf\n", km);
-printf("PIB do Estado: %.3lf bilhões de reais\n", pib);
-printf("Numero de Pontos Turisticos: %d\n\n", pontoturistico);
-
-printf("CARTA 2: \n");
+printf("\nCARTA 2: \n");
 printf("Estado: %c\n", estado2);
 printf("Codigo da Carta: %s\n", codigocarta2);
 printf("Nome da Cidade: %s\n", cidade2);
